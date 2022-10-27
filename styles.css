@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+header{
+    background: url(imagen/patitasfeliceshead.jpg);
+    height: 60vh;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.container a{
+    text-align: center;
+    margin-left: 45%;
+    padding-top: 0;
+}
+
+#container{
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p{
+    font-size: 30px;
+}
+
+.card{
+    width: 40%;
+    height: 40%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo cards */
+.card{
+    border-radius: 1rem;
+}
+
+#fotos{
+    align-items: center;
+    overflow: hidden;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+#contenido-tarjeta{
+    padding: 1rem;
+}
+
+/* estilo cards reveal */
+ul{
+    margin: 1rem 2rem;
+    text-align: start;
+    font-size: 10px;
+    word-spacing: 0.5rem;
+}
+
+/* Botonera Card */
+.info-container{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    padding: 0.8rem;
+}
+
+.separador{
+    padding: 1px;
+}
+
+/* Contacto */
+#contact {
+    margin-left: 50vh;
+}
+
+.container-contact h2{
+    margin-left: 30vh;
+    padding-top: 5vh;
+}
+
+.contactForm{
+    margin-left: 30vh;
+    padding-top: 3vh;
+}
+
+.contactForm input,
+.contactForm textarea{
+    width: 50vh;
+}
+
+.contactForm textarea{
+    resize: none;   
+}
+
+.contactForm label{
+    font-size: 20px;
+}
+
+.button input{
+    border-radius: 10%;
+    box-shadow: 5px 3px 4px 2px black;
+    background-color: palevioletred;
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.button input:hover{
+    cursor: url(imagen/huella.png), pointer;
+    transition: all 0.5s;
+    filter: brightness(110%);
+}
+
+#contenido-tarjeta .adoptar{
+    border-radius: 10%;
+    box-shadow: 5px 3px 4px 2px black;
+    background-color: palevioletred;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;    
+}
+
+/*Banner*/
+#end img{
+    margin-left: 45vh;
+}
+
+footer{
+    display: block;
+}
